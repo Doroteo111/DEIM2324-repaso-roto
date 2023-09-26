@@ -6,9 +6,9 @@ using UnityEngine.UI;
 using TMPro;
 
 public class UIManagerOptions : MonoBehaviour
-{ 
-    public static UIManagerMainMenu sharedInstance;
-    
+{
+    public static UIManagerOptions sharedInstance;
+
     public static string PLAYER_USERNAME = "playerUsername";
 
     [SerializeField] private GameObject playerPreview;

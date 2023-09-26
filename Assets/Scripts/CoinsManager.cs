@@ -59,7 +59,7 @@ public class CoinsManager : MonoBehaviour
     
     private void GetTotalCoins()
     {
-        totalCoins = FindObjectsOfType<Coin>().Length;
+        totalCoins = FindObjectsOfType<coin>().Length;
         UIManager.sharedInstance.SetTotalCoinsText(totalCoins);
     }
 }

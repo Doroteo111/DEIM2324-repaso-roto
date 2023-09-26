@@ -9,7 +9,7 @@ public class UnlockFloor : MonoBehaviour
     [SerializeField] private GameObject floorToUnlock;
     [SerializeField] private ParticleSystem unlockParticleSystem;
 
-    // private bool unlockInput;
+    private bool unlockInput;
 
     private void Update()
     {

@@ -14,7 +14,7 @@ public class PlayerVisuals : MonoBehaviour
     * 1: cube
     * 2: capsule
     */
-    private int playerShape;
+    public int playerShape;
 
     /*
     * PLAYER COLOR
@@ -64,6 +64,6 @@ public class PlayerVisuals : MonoBehaviour
             playerColor = 1;
         }
 
-        PlayerMaterial.color = DataPersistence.sharedInstance.playerColors[playerColor];
+        playerMaterial.color = DataPersistence.sharedInstance.playerColors[playerColor];
     }
 }
